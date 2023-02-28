@@ -7,7 +7,7 @@ export default function TopContainer() {
     return (
 
         <Box backgroundImage={"/images/background.webp"} mt={"5"}
-            backgroundSize="contain" py={"20"} >
+            backgroundSize="contain" py={"20"} as={"section"} >
             <HStack>
                 {/* left side box  */}
                 <Box w="50%" color={"white"} pl="40" >
