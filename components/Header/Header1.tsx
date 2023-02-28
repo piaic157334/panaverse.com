@@ -6,7 +6,7 @@ import React from 'react'
 export default function Header1() {
   return (
 
-    <Box pt={5}>
+    <Box pt={5} as={"header"} >
       <Flex justifyContent={"space-around"} alignItems={"center"} >
         {/* left area  */}
         <Box>
